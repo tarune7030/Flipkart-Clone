@@ -1,0 +1,44 @@
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: white !important;
+  height: 100px;
+  width: 50px;
+  margin-top: 80px;
+}
+
+
+
+.carousel-control-prev {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.carousel-control-next {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.image-container img {
+  filter: blur(8px);
+  transition: filter 0.2s ease;
+}
+
+.carousel-item.active .image-container img {
+  filter: blur(0);
+}
+
+@media only screen and (max-width: 500px) {
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: white !important;
+    height: 50%;
+    width: 20px;
+    margin-top: 13px !important;
+  }
+
+  .prevIcon,
+  .nextIcon {
+    font-size: 12px !important;
+  }
+}

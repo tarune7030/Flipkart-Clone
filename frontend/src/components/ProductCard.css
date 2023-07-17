@@ -1,0 +1,9 @@
+.card,
+.card-img-top {
+    border-radius: 0 !important;
+}
+
+.productCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}

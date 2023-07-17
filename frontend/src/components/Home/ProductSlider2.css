@@ -1,0 +1,33 @@
+.card {
+  height: 80% !important;
+  margin-top: 20px;
+  border: none;
+}
+
+.imgSection {
+  height: 70%;
+  width: 100%;
+  padding: 10px;
+}
+
+.imgSection img {
+  height: 100%;
+}
+
+.carousel-control-next {
+  background-color: white !important;
+  height: 100px;
+  width: 60px;
+  margin-top: 80px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.carousel-control-prev {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white !important;
+  height: 100px;
+  width: 60px;
+  margin-top: 80px;
+}
