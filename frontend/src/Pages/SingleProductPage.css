@@ -1,3 +1,38 @@
 .container {
-    margin-top: 50px !important;
+  margin-top: 50px !important;
+}
+.productImg {
+  width: 70px;
+  height: 80px;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 2px;
+}
+.productImg img {
+  width: 100%;
+  height: 100%;
+}
+.productImg:hover {
+  border: 2px solid #2874f0;
+}
+.supercoinImg {
+  height: 15px;
+  width: 15px;
+}
+.supercoinImg img {
+  height: 100%;
+  width: 100%;
+}
+.rating {
+  padding: 2px 7px 5px 7px;
+  border-radius: 14px;
+  font-size: 16px;
+  background-color: #26a541;
+  vertical-align: baseline;
+  color: white;
+}
+.fa-star {
+  font-size: 10px;
+}
+.button1:focus {
+  border: 3px solid red;
 }
