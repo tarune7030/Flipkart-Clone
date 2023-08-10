@@ -1,6 +1,8 @@
 import React from "react";
 import "./SingleProductPage.css";
 import Categories2 from "../components/Home/Categories2";
+import Offers from "../components/Home/Offers";
+import OfferTag from "../Assets/Images/offer-tag.png";
 
 const SingleProductPage = () => {
   return (
@@ -10,7 +12,7 @@ const SingleProductPage = () => {
       {/* ********************************************************************************************** */}
 
       <div className="container text-center m-auto">
-        <div style={{ height: "80vh" }} className="row bg-white ">
+        <div style={{ height: "100vh" }} className="row bg-white ">
           <div className="col-5 bg-white d-flex mt-3 position-sticky top-0">
             <div className="col-2">
               <div className="">
@@ -49,7 +51,7 @@ const SingleProductPage = () => {
             {/* ********************************************************************************************************************************** */}
             <div className="col-10">
               <img
-                height={"100%"}
+                height={"90%"}
                 width={"100%"}
                 src="https://rukminim2.flixcart.com/image/832/832/kyhlfgw0/t-shirt/e/9/o/-original-imagapnt4wggzagc.jpeg?q=70"
                 alt=""
@@ -116,13 +118,160 @@ const SingleProductPage = () => {
                   <div style={{ color: "#878787", fontWeight: "500" }}>
                     214 ratings and 18 reviews
                   </div>
-                  <button className="button1">add</button>
+                </div>
+              </div>
+
+              <div className="d-flex mt-5 ">
+                <div>
+                  <span
+                    style={{ color: "#878787" }}
+                    className="fw-semibold fs-6"
+                  >
+                    Size
+                  </span>
+                </div>
+                <div className=" d-flex gap-3  ms-5">
+                  <div>
+                    <button className="button1  bg-white ">S</button>
+                  </div>
+                  <div>
+                    <button className="button1  bg-white">M</button>
+                  </div>
+                  <div>
+                    <button className="button1  bg-white">L</button>
+                  </div>
+                  <div>
+                    <button className="button1  bg-white">XL</button>
+                  </div>
+                  <div>
+                    <button className="button1  bg-white">XXL</button>
+                  </div>
+                  <div>
+                    <button className="button1  bg-white">3XL</button>
+                  </div>
+                </div>
+              </div>
+
+              {/* ************************************************************************************************************ */}
+              <div className="mt-3">
+                <div>
+                  <h6>Available Offers</h6>
+                </div>
+                <div>
+                  <div className="d-flex">
+                    <img
+                      className="mt-1"
+                      height={"18px"}
+                      src={OfferTag}
+                      alt="offerTag"
+                    />
+                    <p style={{ fontSize: "15px" }} className="ms-3">
+                      <span className=" fw-semibold ">Special Price</span> Get
+                      extra 12% off (price inclusive of cashback/coupon)T&C
+                    </p>
+                  </div>
+                  <div className="d-flex">
+                    <img
+                      className="mt-1"
+                      height={"18px"}
+                      src={OfferTag}
+                      alt="offerTag"
+                    />
+                    <p style={{ fontSize: "15px" }} className="ms-3">
+                      <span className=" fw-semibold ">Combo Offer</span> Buy 2
+                      items save 5%; Buy 3 or more save 10%See all productsT&C
+                    </p>
+                  </div>
+                  <div className="d-flex">
+                    <img
+                      className="mt-1"
+                      height={"18px"}
+                      src={OfferTag}
+                      alt="offerTag"
+                    />
+                    <p style={{ fontSize: "15px" }} className="ms-3">
+                      <span className=" fw-semibold ">Bank Offer</span> 10% off
+                      on AU Bank Credit Card Txns, up to ₹1,500 on orders of
+                      ₹5,000 and aboveT&C
+                    </p>
+                  </div>
+                  <div className="d-flex">
+                    <img
+                      className="mt-1"
+                      height={"18px"}
+                      src={OfferTag}
+                      alt="offerTag"
+                    />
+                    <p style={{ fontSize: "15px" }} className="ms-3">
+                      <span className=" fw-semibold ">Bank Offer</span> 10% off
+                      on Bank of Baroda Credit Card Txns, up to ₹1,500 on orders
+                      of ₹5,000 and aboveT&C
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-3">
+                <div>
+                  <h6>Available Offers</h6>
+                </div>
+                <div>
+                  <div className="d-flex">
+                    <img
+                      className="mt-1"
+                      height={"18px"}
+                      src={OfferTag}
+                      alt="offerTag"
+                    />
+                    <p style={{ fontSize: "15px" }} className="ms-3">
+                      <span className=" fw-semibold ">Special Price</span> Get
+                      extra 12% off (price inclusive of cashback/coupon)T&C
+                    </p>
+                  </div>
+                  <div className="d-flex">
+                    <img
+                      className="mt-1"
+                      height={"18px"}
+                      src={OfferTag}
+                      alt="offerTag"
+                    />
+                    <p style={{ fontSize: "15px" }} className="ms-3">
+                      <span className=" fw-semibold ">Combo Offer</span> Buy 2
+                      items save 5%; Buy 3 or more save 10%See all productsT&C
+                    </p>
+                  </div>
+                  <div className="d-flex">
+                    <img
+                      className="mt-1"
+                      height={"18px"}
+                      src={OfferTag}
+                      alt="offerTag"
+                    />
+                    <p style={{ fontSize: "15px" }} className="ms-3">
+                      <span className=" fw-semibold ">Bank Offer</span> 10% off
+                      on AU Bank Credit Card Txns, up to ₹1,500 on orders of
+                      ₹5,000 and aboveT&C
+                    </p>
+                  </div>
+                  <div className="d-flex">
+                    <img
+                      className="mt-1"
+                      height={"18px"}
+                      src={OfferTag}
+                      alt="offerTag"
+                    />
+                    <p style={{ fontSize: "15px" }} className="ms-3">
+                      <span className=" fw-semibold ">Bank Offer</span> 10% off
+                      on Bank of Baroda Credit Card Txns, up to ₹1,500 on orders
+                      of ₹5,000 and aboveT&C
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <Offers />
     </>
   );
 };

@@ -33,6 +33,12 @@
 .fa-star {
   font-size: 10px;
 }
+.button1 {
+  height: 40px;
+  width: 50px;
+  border: 2px solid rgb(238, 233, 233) !important;
+  font-weight: bold;
+}
 .button1:focus {
-  border: 3px solid red;
+  border: 2px solid rgb(51, 129, 242) !important;
 }
